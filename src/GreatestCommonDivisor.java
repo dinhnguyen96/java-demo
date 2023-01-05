@@ -17,7 +17,7 @@ public class GreatestCommonDivisor {
         }
         int greatestCommon = 1;
 
-        for (int i = 2; i < Math.abs(a-b);i++)
+        for (int i = 2; i <= Math.abs(a-b);i++)
         {
             if (a % i == 0 && b % i == 0)
             {
