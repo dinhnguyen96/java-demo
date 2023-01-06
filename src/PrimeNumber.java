@@ -8,7 +8,7 @@ public class PrimeNumber {
 
         for (int i = 2; i <= prime / 2;i++)
         {
-            if (prime % 2 == 0)
+            if (prime % i == 0)
             {
                 return false;
             }
